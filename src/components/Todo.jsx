@@ -39,9 +39,12 @@ const Todo = () => {
         const newUpdatedItems = items.filter((curObj) => {
             if (curObj.id !== id)
                 return curObj;
-            else
-                setInputData(curObj.name);
         });
+        const goForEdit = items.find((curObj)=>{
+            if(curObj.id === id)
+                return curObj;
+        })
+        setInputData(goForEdit.name);
 
         setItems(newUpdatedItems);
     }
