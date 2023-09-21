@@ -2,7 +2,7 @@
 
 ## Description :
 I made this to do list to track my daily activity. This website does not has any backend.
-To store list I've used local storage.
+To store list data I've used local storage.
 
 ## Link : https://ani-todolist.netlify.app/
 
